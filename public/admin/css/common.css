@@ -8,6 +8,24 @@
 }
 
 /* 管理首页 */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,body {
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
 .mb_20 {
   margin-bottom: 20px;
 }
@@ -16,12 +34,14 @@
   text-align: center;
 }
 
-
-/*侧边栏*/
+/* 所有的a链接 */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
 .lt_aside {
-  width: 180px;
+  width: 197px;
   height: 100%;
-  background-color: #222d32;
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -30,33 +50,28 @@
 }
 
 .lt_aside.now {
-  left: -180px;
+  left: -197px;
 }
-
 .lt_aside .brand a {
   display: block;
-  width: 180px;
+  width: 197px;
   height: 50px;
   background-color: #367fa9;
   text-align: center;
   line-height: 50px;
   font-size: 24px;
-  color: #fff;
 }
-
 .lt_aside .user {
-  width: 180px;
-  height: 150px;
+  width: 197px;
+  height: 149px;
 }
-
 .lt_aside .user img {
   width: 80px;
   height: 80px;
-  display: block;
   border-radius: 50%;
-  margin: 30px auto 0;
+  display: block;
+  margin: 27px auto 0;
 }
-
 .lt_aside .user p {
   height: 40px;
   line-height: 40px;
@@ -64,18 +79,17 @@
   text-align: center;
   font-size: 16px;
 }
-
 .lt_aside .nav a {
   display: block;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 30px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 47px;
   color: #ccc;
   border: 3px solid transparent;
 }
 
 .lt_aside .nav .child a {
-  padding-left: 50px;
+  padding-left: 57px;
 }
 
 .lt_aside .nav a.now {
@@ -84,12 +98,11 @@
   color: #fff;
 }
 
-
-/*主体区样式*/
+/* 主体区域 */
 .lt_main {
-  height: 100%;
   width: 100%;
-  padding-left: 180px;
+  height: 100%;
+  padding-left: 197px;
   transition: all 1s;
   padding-top: 70px;
 }
@@ -101,7 +114,7 @@
 .lt_topbar {
   height: 50px;
   background-color: #3c8dbc;
-  padding: 0 20px 0 200px;
+  padding: 0 20px 0 227px;
   margin-bottom: 20px;
   position: fixed;
   width: 100%;
@@ -120,32 +133,8 @@
   color: #fff;
   line-height: 50px;
 }
-
-/*报表*/
-.pic_left,
-.pic_right {
-  width: 45%;
-  height: 400px;
-}
-
-
-.fileupload_box {
-  width: 82px;
-  height: 34px;
-  position: relative;
-}
-
-.fileupload_box:hover button {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
-}
-
-.fileupload_box input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
+/* 主体区面包屑 */
+.breadcrumb a:hover,
+.breadcrumb a {
+  color: #069;
 }
