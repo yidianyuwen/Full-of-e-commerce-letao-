@@ -85,7 +85,7 @@ a:link, a:visited, a:hover, a:active {
   line-height: 42px;
   padding-left: 47px;
   color: #ccc;
-  border: 3px solid transparent;
+  border-left: 3px solid black;
 }
 
 .lt_aside .nav .child a {
@@ -93,7 +93,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .lt_aside .nav a.now {
-  border-left-color: #069;
+  border-left: 3px solid #069;
   background-color: #1d1f21;
   color: #fff;
 }
