@@ -1,13 +1,3 @@
-/* 登录页 */
-.body_bg {
-  background-color: black;
-}
-
-.mt-179 {
-  margin-top: 179px;
-}
-
-/* 管理首页 */
 * {
   margin: 0;
   padding: 0;
@@ -26,9 +16,20 @@ a {
   text-align: center;
   vertical-align: middle;
 }
-.mb_20 {
-  margin-bottom: 20px;
+.mt_19 {
+  margin-top: 19px;
 }
+
+/* 登录页 */
+.body_bg {
+  background-color: black;
+}
+
+.mt-179 {
+  margin-top: 179px;
+}
+
+/* 管理首页 */
 
 .panel h4 {
   text-align: center;
