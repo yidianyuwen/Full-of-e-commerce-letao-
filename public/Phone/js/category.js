@@ -25,6 +25,9 @@ $(function () {
     var id = $(this).data("id");
     renderSecond(id);
 
+    //右边的滚动容器滑动到底部在点其他分类时滚到0，0的位置
+    mui('.category_right .mui-scroll-wrapper').scroll().scrollTo(0,0,97);//100毫秒滚动到顶
+
   });
 
 
