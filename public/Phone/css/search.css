@@ -1,0 +1,41 @@
+/* 搜索的样式 */
+.lt_search {
+  padding: 10px;
+  position: relative;
+}
+
+.lt_search input {
+  height: 34px;
+  line-height: 34px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #007aff;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lt_search button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 0 3px 3px 0;
+}
+
+/* 历史记录样式 */
+.lt_history {
+  padding: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+.lt_history .content li {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #007aff;
+  padding-left: 10px;
+}
+
+.lt_history .content span {
+  line-height: 30px;
+}
