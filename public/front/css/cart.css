@@ -1,0 +1,86 @@
+.lt_container {
+  padding-bottom: 85px;
+}
+
+.cart_left {
+  width: 60px;
+  float: left;
+  background-color: green;
+  margin-right: 10px;
+}
+
+.cart_right {
+  overflow: hidden;
+  /* background-color: blue; */
+}
+
+.cart_right .proName {
+  color: #333;
+  margin-bottom: 5px;
+  height: 42px;
+}
+
+.cart_right .price {
+  color: red;
+}
+
+.cart_right .oldPrice {
+  text-decoration: line-through;
+}
+
+.ck {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.lt_money {
+  height: 30px;
+  background-color: #eee;
+  position: absolute;
+  bottom: 55px;
+  z-index: 999;
+  width: 100%;
+  padding-left: 10px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.lt_money .mui-pull-left {
+
+  color: red;
+}
+
+
+.lt_money .mui-pull-right a {
+  height: 30px;
+  background-color: red;
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+}
+
+/* 能够继承父元素的宽度 */
+.mui-table-cell {
+  display: block;
+}
+
+.proSize {
+  text-align: left;
+}
+
+.proSize span {
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #eee;
+  line-height: 30px;
+}
+
+.proSize span.now {
+  background-color: #069;
+}
+
+.proNum {
+  text-align: left;
+}

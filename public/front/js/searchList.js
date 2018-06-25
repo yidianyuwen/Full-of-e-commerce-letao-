@@ -7,6 +7,8 @@ $(function () {
   var key = getSearch().key;
   $(".lt_search input").val(key);
 
+
+
   //初始化下拉刷新与上拉加载
   //1. 页面一加载，需要下拉刷新一次
   mui.init({
