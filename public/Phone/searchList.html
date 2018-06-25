@@ -110,22 +110,25 @@
 
   <script type="text/html" id="tpl">
 
-    {{each data v i}}
-    <a href="product.html?productId={{v.id}}">
+    {{ each data v i }}
+    <a href="product.html?productId={{ v.id }}">
       <!-- v.pic结果会是一个空的数组 -->
-      {{if v.pic.length === 0}}
-      <img src="images/none.png" alt=""> {{else}}
-      <img src="{{v.pic[0].picAddr}}" alt=""> {{/if}}
+      {{ if v.pic.length === 0 }}
+      <img src="images/none.png" alt="">
+      {{ else }}
+      <img src="{{v.pic[0].picAddr}}" alt="">
+      {{ /if }}
 
-      <p class="mui-ellipsis-2 proName">{{v.num}}--{{v.proName}}</p>
+      <!-- 把商品的库存拼接到商品名字前面 -->
+      <p class="mui-ellipsis-2 proName">{{ v.num }}--{{ v.proName }}</p>
       <p>
-        <span class="price">&yen;{{v.price}}</span>
-        <span class="old_price">&yen;{{v.oldPrice}}</span>
+        <span class="price">&yen;{{ v.price }}</span>
+        <span class="old_price">&yen;{{ v.oldPrice }}</span>
       </p>
       <button class="mui-btn mui-btn-primary">立即购买</button>
     </a>
-    {{/each}}
-    
+    {{ /each }}
+
   </script>
 
   <script src="lib/mui/js/mui.js"></script>
