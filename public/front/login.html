@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>乐淘商城-登录页</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/fa/css/font-awesome.css">
+  <link rel="stylesheet" href="lib/mui/css/mui.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+  <div class="lt_container">
+    <div class="lt_header">
+      <a class="icon_left" href="javascript:history.go(-1);">
+        <span class="mui-icon mui-icon-arrowleft"></span>
+      </a>
+      <div class="title">
+        <h4>登录中心</h4>
+      </div>
+    </div>
+    <div class="lt_content">
+      <form class="mui-input-group">
+        <div class="mui-input-row">
+          <label>用户名</label>
+          <input type="text" class="mui-input-clear" placeholder="请输入用户名" name="username">
+        </div>
+        <div class="mui-input-row">
+          <label>密码</label>
+          <!-- class="mui-input-password"：查看密码的效果 -->
+          <input type="password" class="mui-input-password" placeholder="请输入密码" name="password">
+        </div>
+        <div class="mui-button-row">
+          <!-- button: 不让表单提交 -->
+          <button type="button" class="mui-btn mui-btn-primary btn_login">登录</button>
+          <button type="reset" class="mui-btn mui-btn-danger">重置</button>
+        </div>
+      </form>
+      <a href="register.html" class="mui-pull-right mui-btn mui-btn-link">免费注册</a>
+    </div>
+
+    <div class="lt_footer">
+      <ul>
+        <li>
+          <a href="index.html">
+            <span class="fa fa-home"></span>
+            <p>首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="category.html">
+            <span class="fa fa-bars"></span>
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="cart.html">
+            <span class="fa fa-shopping-cart"></span>
+            <p>购物车</p>
+          </a>
+        </li>
+        <li class="now">
+          <a href="user.html">
+            <span class="fa fa-user"></span>
+            <p>会员中心</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="lib/mui/js/mui.js"></script>
+  <script src="lib/zepto/zepto.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

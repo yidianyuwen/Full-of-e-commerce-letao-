@@ -129,3 +129,27 @@ img {
 .lt_product a:nth-child(even) {
   margin-left: 4%;
 }
+
+/* 搜索页及商品列表搜索框样式 */
+.lt_search {
+  padding: 10px;
+  position: relative;
+}
+
+.lt_search input {
+  height: 34px;
+  line-height: 34px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #007aff;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lt_search button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 0 3px 3px 0;
+}
